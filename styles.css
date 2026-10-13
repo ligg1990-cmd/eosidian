@@ -1,0 +1,17 @@
+.eos-mvp-view { height: 100%; overflow: auto; }
+.eos-mvp-shell { max-width: 1060px; margin: 0 auto; padding: clamp(18px, 4vw, 42px); color: var(--text-normal); }
+.eos-mvp-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; padding-bottom: 28px; border-bottom: 1px solid var(--background-modifier-border); }
+.eos-mvp-eyebrow { color: var(--text-muted); font-size: 11px; font-weight: 700; letter-spacing: .14em; }
+.eos-mvp-header h1 { margin: 8px 0; font-size: clamp(28px, 5vw, 42px); letter-spacing: -.04em; }
+.eos-mvp-header p, .eos-mvp-card p { max-width: 58ch; color: var(--text-muted); line-height: 1.6; }
+.eos-mvp-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 24px 0 34px; }
+.eos-mvp-card { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; padding: 22px; border: 1px solid var(--background-modifier-border); border-radius: 14px; background: var(--background-secondary); }
+.eos-mvp-card h2, .eos-mvp-app-list h2 { margin: 0; font-size: 18px; }
+.eos-mvp-card p { flex: 1; margin: 0 0 8px; }
+.eos-mvp-app-row { display: flex; align-items: baseline; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--background-modifier-border); }
+.eos-mvp-app-row span { color: var(--text-faint); font-size: 12px; }
+.eos-mvp-app-link { border: 0; padding: 0; color: var(--text-accent); background: transparent; cursor: pointer; font-weight: 600; }
+.eos-mvp-footer { display: flex; justify-content: space-between; gap: 12px; margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--background-modifier-border); color: var(--text-faint); font-size: 12px; }
+.eos-mvp-name-input { width: 100%; margin: 10px 0; padding: 10px; }
+.eos-mvp-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 14px; }
+@media (max-width: 620px) { .eos-mvp-header { flex-direction: column; } .eos-mvp-cards { grid-template-columns: 1fr; } .eos-mvp-footer { flex-direction: column; } .eos-mvp-app-row { flex-direction: column; gap: 4px; } }

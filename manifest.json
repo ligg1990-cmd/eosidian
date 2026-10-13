@@ -1,0 +1,9 @@
+{
+  "id": "eos-workspace",
+  "name": "EOS Workspace",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Create a local EOS workspace with reusable templates and user-owned apps in your vault.",
+  "author": "Guoguang Li",
+  "isDesktopOnly": false
+}
